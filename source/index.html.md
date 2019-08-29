@@ -37,7 +37,7 @@ search: true
 
 # Introduction
 
-The **AIC Open API** is a RESTful based API that can be used by any distributors to perform business functions with Amerilink.
+The **AIC Open API** is designed under RESTful API standard  that can be used by any distributors to perform business functions with Amerilink.
 
 There are two set of environments been provided  **Test Environment** and **Live Environment**. In each of the environment, the APIs are categorized into two part based on the functionality:
 
@@ -358,4 +358,3 @@ Obtaining a list of city id alone with corresponding information by using the un
 | ....center_latitude | 1| String | Latitude of City Center|
 | ....center_longitude | 1| String | Longitude of City Center|
 <aside class="notice">The <code>Latitude</code> and <code>Longitude</code> are based on the coordintator of Google map </aside>
-
