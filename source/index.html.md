@@ -62,18 +62,8 @@ There are two set of environments been provided  **Test Environment** and **Live
 
 # Authentication
 
->HTTP Header Sample
 
-```json
-{
-    "APIClientKey":"TestClientKey",
-    "Date":"Thu,11 Jan 2018 03:55:10 UTC",
-    "APIClientToken":"uh3ap5Yq1iBId49o/3KdyTdzoDs=",
-    "content_type":"application/json"
-}
-```
-
-> Below are the code sample for Auth
+> Authentication algorithm code sample. Resulting Header can be found in below section:
 
 ```python
 """
@@ -203,7 +193,16 @@ Encoding.UTF8.GetBytes(secret));
  }
 }
 ```
+>HTTP Header Sample
 
+```json
+{
+    "APIClientKey":"TestClientKey",
+    "Date":"Thu,11 Jan 2018 03:55:10 UTC",
+    "APIClientToken":"uh3ap5Yq1iBId49o/3KdyTdzoDs=",
+    "content_type":"application/json"
+}
+```
 
 
 All Authentication Info needs to be included in the **Header** section when a HTTP request are being posted. There are Three Components in which needs to be included: *APIClientKey*, *Date*, *APIClientToken*. 
