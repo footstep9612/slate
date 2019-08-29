@@ -19,6 +19,8 @@ search: true
 
 # History
 
+> Above Code Tab are only used to differentiate Algorithm at Authentication Section
+
 | Author     | Version | Date        | Description     |
 | ---------- | ------- | ----------- | --------------- |
 | Kyle Shang | 1.0.0   | 08 Aug 2017 | Initial Edition |
